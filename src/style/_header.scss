@@ -1,0 +1,96 @@
+
+.header {
+    &__menu {
+        height: 75px;
+        flex-shrink: 0;
+        border-radius: 0px 0px 20px 20px;
+        background: #2F304A;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        
+    }
+    &__navigation{
+        display: flex;
+        padding: 10px 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        
+    }
+    &__info-title{
+        color: #453324;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 70px;
+    }
+    &__info-box{
+        margin-top: 33px;
+        
+    }
+    &__info-box-title{
+        color: #594D42;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase; 
+        margin-top: 33px;
+        margin-bottom: 30px;
+    }
+    &__info-describtion{
+        display: block;
+        width: fit-content; 
+        height: fit-content;
+        padding: 25px 10px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        border-radius: 30px;
+        background: rgba(47, 48, 74, 0.78);
+
+    }
+    &__info-describtion-text{
+        color: #888;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}
+.navigation {
+    &__element-link{
+        text-decoration: none;
+        color: #888;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.menu {
+    &__button{
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        border-radius: 30px;
+        background: #453324;
+        display: flex;
+        padding: 10px 30px;
+        align-items: center;
+        gap: 12px;
+        color: #888;
+        
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
